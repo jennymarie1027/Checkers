@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GameboardComponent } from '../app/components/gameboard/gameboard.component';
 import { RouterModule } from '@angular/router';
+import { RowComponent } from './components/row/row.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameboardComponent
+    GameboardComponent,
+    RowComponent
   ],
   imports: [
     BrowserModule,
