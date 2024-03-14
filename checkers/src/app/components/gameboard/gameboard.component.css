@@ -1,10 +1,11 @@
 .container {
-  width: 98%;
+  width: 80%;
   height: 50em;
   border: 10px solid brown;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-top: 1.5em;
 }
 
 .row {
@@ -12,5 +13,17 @@
   height: 100%;
   background-color: tan;
   border: 5px solid black;
+  display: flex;
+  justify-content: space-around;
+
 }
 
+.square {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  width: 100%;
+}
+
+.square:nth-child(even) {
+  background-color: burlywood;
+}

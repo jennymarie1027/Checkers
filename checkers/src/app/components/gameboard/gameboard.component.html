@@ -1,5 +1,5 @@
 <div class="container">
   <div *ngFor="let row of board" class="row">
-    <app-row></app-row>
+    <app-row *ngFor="let square of board" class="square"></app-row>
   </div>
 </div>
