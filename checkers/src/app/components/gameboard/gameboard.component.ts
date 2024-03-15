@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./gameboard.component.css']
 })
 export class GameboardComponent {
+
   board = [
-    ['r', '', 'r', '', 'r', '', 'r', ''],
-    ['', 'r', '', 'r', '', 'r', '', 'r'],
-    ['r', '', 'r', '', 'r', '', 'r', ''],
+    ['w', '', 'w', '', 'w', '', 'w', ''],
+    ['', 'w', '', 'w', '', 'w', '', 'w'],
+    ['w', '', 'w', '', 'w', '', 'w', ''],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['', 'b', '', 'b', '', 'b', '', 'b'],
@@ -17,5 +18,5 @@ export class GameboardComponent {
     ['', 'b', '', 'b', '', 'b', '', 'b'],
   ];
 
-  
+
 }

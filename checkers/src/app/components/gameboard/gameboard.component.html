@@ -1,7 +1,7 @@
 <div class="container">
   <div *ngFor="let row of board; let i = index" class="row">
     <!-- <app-row *ngFor="let square of board" class="square"></app-row> -->
-    <div class="square">{{board[i][0]}}</div>
+    <div class="square" [ngClass]="board[i][0] ">{{board[i][0]}}</div>
     <div class="square">{{board[i][1]}}</div>
     <div class="square">{{board[i][2]}}</div>
     <div class="square">{{board[i][3]}}</div>
