@@ -1,5 +1,13 @@
 <div class="container">
-  <div *ngFor="let row of board" class="row">
-    <app-row *ngFor="let square of board" class="square"></app-row>
+  <div *ngFor="let row of board; let i = index" class="row">
+    <!-- <app-row *ngFor="let square of board" class="square"></app-row> -->
+    <div class="square">{{board[i][0]}}</div>
+    <div class="square">{{board[i][1]}}</div>
+    <div class="square">{{board[i][2]}}</div>
+    <div class="square">{{board[i][3]}}</div>
+    <div class="square">{{board[i][4]}}</div>
+    <div class="square">{{board[i][5]}}</div>
+    <div class="square">{{board[i][6]}}</div>
+    <div class="square">{{board[i][7]}}</div>
   </div>
 </div>
